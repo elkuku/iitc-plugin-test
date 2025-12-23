@@ -43,7 +43,7 @@ jobs:
       - name: Setup GitHub page
         run: |
           cp -R .github/page/* dist/
-          bin/setup-github-page.js
+          node bin/setup-github-page.js
 
       - name: Upload build artifact to pages
         uses: actions/upload-pages-artifact@v3
