@@ -1,0 +1,10 @@
+{
+  "name": "IITC plugin: Iitc-Plugin-Test",
+  "id": "iitc_plugin_IitcPluginTest",
+  "category": "Misc",
+  "description": "just a test",
+  "author": "elkuku",
+  "entry": "src/Main.ts",
+  "minimize": false,
+  "changelog": ""
+}
