@@ -41,14 +41,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup GitHub page
-        run: |
-          cp -R .github/page/* dist/
-          node bin/setup-github-page.js
+        run: node bin/setup-github-page.js
 
       - name: Upload build artifact to pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: gh_page
 
   deploy:
     needs: build

@@ -1,10 +1,10 @@
 {
-  "name": "IITC plugin: Iitc-Plugin-Test",
+  "name": "IITC plugin: IITC-Plugin-Test",
   "id": "iitc_plugin_IitcPluginTest",
   "category": "Misc",
-  "description": "just a test",
+  "description": "Just a TEST",
   "author": "elkuku",
   "entry": "src/Main.ts",
   "minimize": false,
-  "changelog": ""
+  "downloadURL": "https://elkuku.github.io/iitc-TEST"
 }
