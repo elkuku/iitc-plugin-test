@@ -18,7 +18,7 @@ const pluginData = JSON.parse(
     fs.readFileSync('plugin.json', 'utf8')
 )
 
-const baseUrl = '/files'
+const baseUrl = 'files'
 const links = fileNames
     .map(name => `<li><a href="${baseUrl}/${name}">${name}</a></li>`)
     .join("\n");
