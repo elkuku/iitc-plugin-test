@@ -9,7 +9,7 @@ on:
   push:
     tags:
       - 'v*' # Trigger this workflow when a tag starting with 'v' is pushed
-  workflow_dispatch: {}
+#  workflow_dispatch: {} # This does not work because the release plugin does not work without a tag
 
 jobs:
   build:
@@ -41,7 +41,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup GitHub page
-        run: node bin/setup-github-page.js
+        run: node .github/scripts/setup-github-page.js
 
       - name: Upload build artifact to pages
         uses: actions/upload-pages-artifact@v3
