@@ -6,5 +6,5 @@
   "author": "elkuku",
   "entry": "src/Main.ts",
   "minimize": false,
-  "downloadURL": "https://elkuku.github.io/iitc-TEST/files"
+  "downloadURL": "https://elkuku.github.io/iitc-plugin-test/files"
 }
